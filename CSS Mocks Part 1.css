@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* excersize 1*/
+/*
+.two{
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.three{
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.four{
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+*/
+
+/*excersize 2*/
+/*
+.four{
+  position: absolute;
+  right: 0px;
+}
+*/
+
+/*excersize 3*/
+
+/* .one{
+  position: relative;
+}
+.three{
+  position: absolute;
+  right: -200px;
+  bottom: 0;
+ }
+ .four{
+  position: absolute;
+  bottom:1px
+
+ } */
+
+
+/*excersize 4*/
+/* .one{
+  position: relative;
+}
+.two{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.three{
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+.four{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+} */
+
+/*excersize 5*/
+/* .two{
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+}
+.three{
+  position: absolute;
+  top: -200px;
+}
+.four {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+} */
+

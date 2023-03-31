@@ -1,0 +1,104 @@
+/* Mock 1 */
+button{
+    background-color: rgb(235, 90, 23);
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    display: block;
+}
+
+button:hover{
+    background-color: rgb(151, 55, 11);
+    cursor: pointer;
+}
+
+/* Mock 2 */
+.img {
+    background-image: url("https://pngimg.com/uploads/cat/cat_PNG50534.png");
+    width: 100%;
+    padding-bottom: 100%;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.title {
+    background-color: #dbbb53;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.details {
+    border-top: 1px solid hsl(55, 85%, 36%);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 24px;
+    background-color: #dbbb53;
+  }
+
+.poster {
+    width: 50%;
+    border: 4px solid #dbbb53;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px 0px #907b27;
+  }
+
+  /* Mock 3  */
+  
+  .img-1 {
+    background-image: url("https://img.freepik.com/premium-vector/thinking-man-flat-vector-illustration-male-character-thought-bubble-with-question_522613-208.jpg?w=2000");
+  }
+  
+  .img-2 {
+    background-image: url("https://static.wixstatic.com/media/2496cb_8d349208fe4c46649308cc0b50c97ea4~mv2_d_3915_2310_s_2.jpg/v1/crop/x_0,y_81,w_3915,h_2149/fill/w_698,h_380,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1111Best-Bin-Image-RAA-labe.jpg");
+  }
+  
+  .img-3 {
+    background-image: url("https://media.istockphoto.com/id/1317824213/photo/close-up-of-driver-in-car-dropping-trash-out-of-window-on-country-road.jpg?s=612x612&w=0&k=20&c=fuejzT-BBN1NEK3brTD9A_i1EO2iCnpV1s4iLNMk0RQ=");
+  }
+
+  
+  .slots {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .slot {
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    border: 8px solid rgb(230, 187, 150);
+    background-color: rgb(230, 187, 152);
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .img-wrapper {
+    background-position: center;
+    border-radius: 8px;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slot:hover .caption {
+    top: 0;
+  }
+  
+  .caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 400px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 3em;
+    transition: top 0.3s;
+    background-color: rgba(124, 144, 114, 0.6);
+  }
+  
